@@ -1,23 +1,23 @@
-// Copyright (c) 2020, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2020, Daniel Martí
 // See LICENSE for licensing information
 
 package version
 
 import (
-	"encoding/json"
-	"fmt"
-	"os"
-	"runtime"
-	"runtime/debug"
-	"time"
+    "encoding/json"
+    "fmt"
+    "os"
+    "runtime"
+    "runtime/debug"
+    "time"
 
-	"golang.org/x/mod/module"
+    "golang.org/x/mod/module"
 )
 
 // Note that this is not a main package, so a "var version" will not work with
 // our go-cross script which uses -ldflags=main.version=xxx.
 
-const ourModulePath = "mvdan.cc/gofumpt"
+const ourModulePath = "owner888/gofumpt"
 
 const fallbackVersion = "(devel)" // to match the default from runtime/debug
 

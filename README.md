@@ -1,6 +1,6 @@
 # gofumpt
 
-[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/gofumpt/format.svg)](https://pkg.go.dev/mvdan.cc/gofumpt/format)
+[![Go Reference](https://pkg.go.dev/badge/owner888/gofumpt/format.svg)](https://pkg.go.dev/owner888/gofumpt/format)
 
 	go install github.com/owner888/gofumpt@latest
 

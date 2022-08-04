@@ -1,4 +1,4 @@
-// Copyright (c) 2019, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2019, Daniel Martí <mvdan@>
 // See LICENSE for licensing information
 
 // TODO: replace with the unix build tag once we require Go 1.19 or later

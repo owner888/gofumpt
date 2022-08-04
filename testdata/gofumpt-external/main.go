@@ -1,10 +1,10 @@
 package main
 
 import (
-	"io"
-	"os"
+    "io"
+    "os"
 
-	"mvdan.cc/gofumpt/format"
+    "owner888/gofumpt/format"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-// Copyright (c) 2021, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2021, Daniel Martí
 // See LICENSE for licensing information
 
 //go:build go1.18
@@ -7,15 +7,15 @@
 package format
 
 import (
-	"errors"
-	"fmt"
-	"go/scanner"
-	"path/filepath"
-	"strings"
-	"testing"
+    "errors"
+    "fmt"
+    "go/scanner"
+    "path/filepath"
+    "strings"
+    "testing"
 
-	qt "github.com/frankban/quicktest"
-	"golang.org/x/tools/txtar"
+    qt "github.com/frankban/quicktest"
+    "golang.org/x/tools/txtar"
 )
 
 func FuzzFormat(f *testing.F) {

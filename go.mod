@@ -1,4 +1,4 @@
-module mvdan.cc/gofumpt
+module owner888/gofumpt
 
 go 1.18
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2019, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2019, Daniel Martí
 // See LICENSE for licensing information
 
 // Package format exposes gofumpt's formatting in an API similar to go/format.
@@ -7,26 +7,26 @@
 package format
 
 import (
-	"bytes"
-	"fmt"
-	"go/ast"
-	"go/format"
-	"go/parser"
-	"go/token"
-	"os"
-	"reflect"
-	"regexp"
-	"sort"
-	"strconv"
-	"strings"
-	"unicode"
-	"unicode/utf8"
+    "bytes"
+    "fmt"
+    "go/ast"
+    "go/format"
+    "go/parser"
+    "go/token"
+    "os"
+    "reflect"
+    "regexp"
+    "sort"
+    "strconv"
+    "strings"
+    "unicode"
+    "unicode/utf8"
 
-	"github.com/google/go-cmp/cmp"
-	"golang.org/x/mod/semver"
-	"golang.org/x/tools/go/ast/astutil"
+    "github.com/google/go-cmp/cmp"
+    "golang.org/x/mod/semver"
+    "golang.org/x/tools/go/ast/astutil"
 
-	"mvdan.cc/gofumpt/internal/version"
+    "owner888/gofumpt/internal/version"
 )
 
 // Options is the set of formatting options which affect gofumpt.

@@ -1,14 +1,14 @@
-// Copyright (c) 2021, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2021, Daniel Martí <mvdan@>
 // See LICENSE for licensing information
 
 package format_test
 
 import (
-	"testing"
+    "testing"
 
-	qt "github.com/frankban/quicktest"
+    qt "github.com/frankban/quicktest"
 
-	"mvdan.cc/gofumpt/format"
+    "owner888/gofumpt/format"
 )
 
 func TestSourceIncludesSimplify(t *testing.T) {

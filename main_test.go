@@ -1,20 +1,20 @@
-// Copyright (c) 2019, Daniel Martí <mvdan@mvdan.cc>
+// Copyright (c) 2019, Daniel Martí <>
 // See LICENSE for licensing information
 
 package main
 
 import (
-	"encoding/json"
-	"flag"
-	"os"
-	"path/filepath"
-	"testing"
+    "encoding/json"
+    "flag"
+    "os"
+    "path/filepath"
+    "testing"
 
-	qt "github.com/frankban/quicktest"
-	exec "golang.org/x/sys/execabs"
+    qt "github.com/frankban/quicktest"
+    exec "golang.org/x/sys/execabs"
 
-	"github.com/rogpeppe/go-internal/gotooltest"
-	"github.com/rogpeppe/go-internal/testscript"
+    "github.com/rogpeppe/go-internal/gotooltest"
+    "github.com/rogpeppe/go-internal/testscript"
 )
 
 func TestMain(m *testing.M) {

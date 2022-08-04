@@ -91,7 +91,7 @@ README](https://github.com/mvdan/gofumpt).
 
 `gofumports` also added maintenance work and potential confusion to end users.
 In the future, there will only be one way to use `gofumpt` from the command
-line. We also have a [Go API](https://pkg.go.dev/mvdan.cc/gofumpt/format) for
+line. We also have a [Go API](https://pkg.go.dev/owner888/gofumpt/format) for
 those building programs with gofumpt.
 
 Finally, this release adds the `-version` flag, to print the tool's own version.
