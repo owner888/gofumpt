@@ -59,7 +59,7 @@ var (
 
 // Keep these in sync with go/format/format.go.
 const (
-	tabWidth    = 8
+	tabWidth    = 4
 	printerMode = printer.UseSpaces | printer.TabIndent | printerNormalizeNumbers
 
 	// printerNormalizeNumbers means to canonicalize number literal prefixes
@@ -318,7 +318,7 @@ func processFile(filename string, info fs.FileInfo, in io.Reader, r *reporter, e
 		})
 	}
 
-	res, err := format(fileSet, file, sourceAdj, indentAdj, src, printer.Config{Mode: printerMode, Tabwidth: tabWidth})
+	res, err := format(fileSet, file, sourceAdj, indentAdj, src, printer.Config{Mode: printer.UseSpaces, Tabwidth: tabWidth})
 	if err != nil {
 		return err
 	}
